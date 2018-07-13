@@ -1,0 +1,78 @@
+main {
+	background-color: black;
+	position: relative;
+	text-align: center;
+	height: 90em;
+	width: 100%;
+	margin-top: -3px;
+}
+main h1{
+	color: white;
+	text-align: center;
+	font-weight: 90;
+	width: 100%;
+	position: absolute;
+	top:50px;
+}
+main h2{
+	color: gray;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top:140px;
+}
+input[type=text], textarea{
+	background-color: gray;
+	color: black;
+	width: 30%;
+	height: 40px;
+	border:none;
+	position: relative;
+	top:15em;
+	font-size: 17px;
+	font-weight: 90;
+	padding: 3px 0px 3px 20px;
+	box-sizing: border-box;
+	-webkit-transition: 0.5s;
+    transition: 0.5s;
+    margin: 15px 25em 15px 24em;
+
+}
+input[type=text]:focus{
+	background-color: white;
+
+}
+#address{
+	background-color: gray;
+	color: black;
+	width: 30%;
+	height: 200px;
+	border:none;
+	position: relative;
+	top:15.5em;
+	font-size: 17px;
+	font-weight: 90;
+	padding: 3px 0px 3px 20px;
+	box-sizing: border-box;
+	-webkit-transition: 0.5s;
+    transition: 0.5s;
+    margin: 15px 25em 15px 24em;
+}
+#address:focus{
+	background-color: white;
+}
+button {
+	
+	border: none;
+	width: 7em;
+	height: 40px;
+	background-color: #330033;
+	color: white;
+	position: absolute;
+	top:49em;
+	left:49em;
+
+}
+button:hover{
+	background-color: #4d0026;
+}

@@ -1,0 +1,73 @@
+main {
+	background-color: black;
+	position: relative;
+	text-align: center;
+	height: 90em;
+	width: 100%;
+	margin-top: -3px;
+}
+main h1{
+position: absolute;
+top:25px;
+color: white;
+left: 45%;
+font-weight: 90;
+font-size: 45px;
+}
+main img{
+	position: absolute;
+	top:10em;
+	left: 10em;
+}
+main h2{
+	color: white;
+	position: absolute;
+	top:5em;
+	right: 8em;
+	font-weight: normal;
+	font-size: 28px;
+}
+main img:hover{
+	opacity:0.60;
+}
+#description h1{
+	color: gray;
+	position: absolute;
+	top:9em;
+	left: 4em;
+}
+#description h5{
+	color: white;
+	position: absolute;
+	top:35.5em;
+	left: 14em;
+}
+#description p{
+	color: white;
+	position: absolute;
+	top:33em;
+	left: 11.5em;
+	right: 34em;
+
+}
+#description button{
+	border: none;
+	width: 10em;
+	height: 40px;
+	background-color: gray;
+	color: white;
+	position: absolute;
+	top:45em;
+	left:40em;
+}
+#description button:hover{
+	background-color: white;
+	color: black;
+}
+#description hr{
+    color: white;
+	position: absolute;
+	width: 30%;
+	top:33em;
+	left: 60%;
+	border-width: 1px;

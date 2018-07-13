@@ -1,0 +1,33 @@
+#socialmedia{
+	background-color: #a6a6a6;
+	height: 8em;
+	width: 100%;
+}
+#socialmedia h1{
+	color: white;
+	text-align: center;
+	font-weight: 90;
+	font-size: 30px;
+	margin: 4% 40% 10px 0px;
+}
+#socialmedia img{
+	height: 80px;
+	width: 80px;
+	float: right;
+	margin: -5% 28% 10px 0px;
+	padding: 0px 10px 0px 10px;
+	
+}
+#copyright{
+	background-color: white;
+	height:10em;
+	width: 100%;
+	margin-top: -20px;
+
+}
+#copyright p{
+	text-align: center;
+	padding-top: 30px;
+	font-size: 13px;
+
+}
